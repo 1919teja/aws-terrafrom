@@ -102,7 +102,5 @@ resource "aws_security_group" "sg" {
     ipv6_cidr_blocks = ["::/0"]
   }
 
-  tags = {
-    Name = "allow-sg"
-  }
-}
+ }
+## this is holiday code 
